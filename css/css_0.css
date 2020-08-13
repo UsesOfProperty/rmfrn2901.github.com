@@ -1,5 +1,23 @@
-body{
-  margin: 0;
+body {
+margin:0px;
+background-color: rgba(110, 110, 110, 0.664);
+
+}
+
+ #nextfont { position:absolute;
+   height:200px;
+   width:400px;
+   margin:-100px 0px 0px -200px;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+   overflow: auto;
+   padding:15px;
+ }
+
+#background {
+
+background-size:100% 100%;
 }
 h2{
 
@@ -12,8 +30,6 @@ h3{
   left: 30px;
   top:90px;
 }
-
-
 #wecode{
   color: blue;
 }
@@ -22,61 +38,132 @@ h3{
   left:0px;
   top:200px;
 }
-
-
 #ground1{
 
-   position:fixed;
+   position:absolute;
    left:0px;
    top:163px;
    z-index:-1; /* 이미지를 뒤로 넘김 z-index:-1*/
-
 }
 #brain{
 
-   position:absolute;
-   left:1100px;
+position:absolute;
+   left:900px;
    top:150px;
-
-
 }
 #hobby{
 
    position:absolute;
-   left:1500px;
+   left:1200px;
    top:150px;
-
-
 }
 #job{
 
    position:absolute;
-   left:1100px;
+   left:900px;
    top:450px;
-
-
 }
 #email{
 
    position:absolute;
-   left:1500px;
+   left:1200px;
    top:450px;
-
-
 }
 #home{
 
    position:absolute;
-   left:1100px;
+   left:900px;
    top:750px;
-
-
 }
 #next{
 
    position:absolute;
-   left:1500px;
+   left:1200px;
    top:750px;
 
+}
+@media(max-width:1600px){
+  #brain,#hobby{ /* 가장자리 */
+     top:50px;
+    }
+  #job,#email{
+    top:300px;
+  }
+  #home,#next{
+    top:550px;
+  }
+  #park{
+  top:100px;
+}
+  h2{
+    position:absolute;
+    top:30px;
+    left: 10px;
+    font-size: 5px;
+  }
+  h3{
+    position:absolute;
+    left: 10px;
+    top:40px;
+    font-size: 5px;
+  }
+  @media(max-width:1350px){
+    #brain,#job,#home{ /* 가장자리 */
+       left:700px;
+      }
+      #hobby,#email,#next{
+        left:1000px;
+      }
+      @media(max-width:1170px){
+        #brain,#job,#home{ /* 가장자리 */
+           left:500px;
+          }
+          #hobby,#email,#next{
+            left:800px;
+          }
+          #job,#email{
+            top:200px;
+          }
+          #home,#next{
+            top:350px;
+        }
 
+            @media(max-width:900px){
+              #brain,#job,#home{ /* 가장자리 */
+                 left:300px;
+                }
+                #hobby,#email,#next{
+                  left:500px;
+                }
+    }
+    @media(max-width:750px){
+
+        #job,#email{
+          top:150px;
+        }
+        #home,#next{
+          top:250px;
+}
+
+}
+@media(max-width:580px){
+
+  #brain,#job,#home{ /* 가장자리 */
+     left:300px;
+    }
+    #hobby,#email,#next{
+      left:400px;
+    }
+}
+@media(max-width:540px){
+
+  #job,#email{
+    top:120px;
+  }
+  #home,#next{
+    top:190px;
+}
+}
+}
+}
 }
