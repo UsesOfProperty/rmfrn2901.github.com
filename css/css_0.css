@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+}
+h2{
+
+  position:absolute;
+  top:50px;
+  left: 30px;
+}
+h3{
+  position:absolute;
+  left: 30px;
+  top:90px;
+}
+
+
+#wecode{
+  color: blue;
+}
+#park{
+  position:absolute;
+  left:0px;
+  top:200px;
+}
+
+
+#ground1{
+
+   position:fixed;
+   left:0px;
+   top:163px;
+   z-index:-1; /* 이미지를 뒤로 넘김 z-index:-1*/
+
+}
+#brain{
+
+   position:absolute;
+   left:1100px;
+   top:150px;
+
+
+}
+#hobby{
+
+   position:absolute;
+   left:1500px;
+   top:150px;
+
+
+}
+#job{
+
+   position:absolute;
+   left:1100px;
+   top:450px;
+
+
+}
+#email{
+
+   position:absolute;
+   left:1500px;
+   top:450px;
+
+
+}
+#home{
+
+   position:absolute;
+   left:1100px;
+   top:750px;
+
+
+}
+#next{
+
+   position:absolute;
+   left:1500px;
+   top:750px;
+
+
+}
