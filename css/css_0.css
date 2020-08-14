@@ -99,13 +99,13 @@ position:absolute;
     position:absolute;
     top:30px;
     left: 10px;
-    font-size: 5px;
+    font-size: 15px;
   }
   h3{
     position:absolute;
     left: 10px;
     top:40px;
-    font-size: 5px;
+    font-size: 15px;
   }
   @media(max-width:1350px){
     #brain,#job,#home{ /* 가장자리 */
@@ -129,6 +129,18 @@ position:absolute;
         }
 
             @media(max-width:900px){
+              h2{
+                position:absolute;
+                top:30px;
+                left: 10px;
+                font-size: 10px;
+              }
+              h3{
+                position:absolute;
+                left: 10px;
+                top:40px;
+                font-size: 10px;
+              }
               #brain,#job,#home{ /* 가장자리 */
                  left:300px;
                 }
@@ -147,7 +159,18 @@ position:absolute;
 
 }
 @media(max-width:580px){
-
+  h2{
+    position:absolute;
+    top:30px;
+    left: 10px;
+    font-size: 5px;
+  }
+  h3{
+    position:absolute;
+    left: 10px;
+    top:40px;
+    font-size: 5px;
+  }
   #brain,#job,#home{ /* 가장자리 */
      left:300px;
     }
