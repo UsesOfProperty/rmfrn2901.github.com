@@ -23,7 +23,7 @@ body{
 
 #intro{
   position: fixed;
-  
+
 }
 
 #park{
@@ -44,4 +44,15 @@ body{
  }
  #brain,#hobby,#job,#home,#next{
    text-align: none;
+ }
+ @media(max-width:1130px){
+   #intro{
+     height:  150px;
+
+   }
+   @media(max-width:750px){
+     #intro{
+     height:  100px;
+   }
+   }
  }
