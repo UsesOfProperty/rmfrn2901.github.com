@@ -1,10 +1,38 @@
-body {
-margin:0px;
-background-color: rgba(110, 110, 110, 0.664);
+
+
+
+body{
+
+      background-image: url('background.jpg');
+      background-size: contain;
+      background-size:100%;
+      background-repeat: no-repeat
+          }
+
+          h3{
+            text-align: center;
+
+          }
+  h4{
+    margin: 0;
+    padding: 0;
+      border-bottom-width:  thin;
+  		border-bottom: 1px solid black;
+          }
+
+
+#intro{
+  position: fixed;
+  
+}
+
+#park{
+  border-right: 1px solid black ;
 
 }
 
- #nextfont { position:absolute;
+
+ #nextfont { position:fixed;
    height:200px;
    width:400px;
    margin:-100px 0px 0px -200px;
@@ -14,179 +42,6 @@ background-color: rgba(110, 110, 110, 0.664);
    overflow: auto;
    padding:15px;
  }
-
-#background {
-
-background-size:100% 100%;
-}
-h2{
-
-  position:absolute;
-  top:50px;
-  left: 30px;
-}
-h3{
-  position:absolute;
-  left: 30px;
-  top:90px;
-}
-#wecode{
-  color: blue;
-}
-#park{
-  position:absolute;
-  left:0px;
-  top:200px;
-}
-#ground1{
-
-   position:absolute;
-   left:0px;
-   top:163px;
-   z-index:-1; /* 이미지를 뒤로 넘김 z-index:-1*/
-}
-#brain{
-
-position:absolute;
-   left:900px;
-   top:150px;
-}
-#hobby{
-
-   position:absolute;
-   left:1200px;
-   top:150px;
-}
-#job{
-
-   position:absolute;
-   left:900px;
-   top:450px;
-}
-#email{
-
-   position:absolute;
-   left:1200px;
-   top:450px;
-}
-#home{
-
-   position:absolute;
-   left:900px;
-   top:750px;
-}
-#next{
-
-   position:absolute;
-   left:1200px;
-   top:750px;
-
-}
-@media(max-width:1600px){
-  #brain,#hobby{ /* 가장자리 */
-     top:50px;
-    }
-  #job,#email{
-    top:300px;
-  }
-  #home,#next{
-    top:550px;
-  }
-  #park{
-  top:100px;
-}
-  h2{
-    position:absolute;
-    top:30px;
-    left: 10px;
-    font-size: 15px;
-  }
-  h3{
-    position:absolute;
-    left: 10px;
-    top:40px;
-    font-size: 15px;
-  }
-  @media(max-width:1350px){
-    #brain,#job,#home{ /* 가장자리 */
-       left:700px;
-      }
-      #hobby,#email,#next{
-        left:1000px;
-      }
-      @media(max-width:1170px){
-        #brain,#job,#home{ /* 가장자리 */
-           left:500px;
-          }
-          #hobby,#email,#next{
-            left:800px;
-          }
-          #job,#email{
-            top:200px;
-          }
-          #home,#next{
-            top:350px;
-        }
-
-            @media(max-width:900px){
-              h2{
-                position:absolute;
-                top:30px;
-                left: 10px;
-                font-size: 10px;
-              }
-              h3{
-                position:absolute;
-                left: 10px;
-                top:40px;
-                font-size: 10px;
-              }
-              #brain,#job,#home{ /* 가장자리 */
-                 left:300px;
-                }
-                #hobby,#email,#next{
-                  left:500px;
-                }
-    }
-    @media(max-width:750px){
-
-        #job,#email{
-          top:150px;
-        }
-        #home,#next{
-          top:250px;
-}
-
-}
-@media(max-width:580px){
-  h2{
-    position:absolute;
-    top:30px;
-    left: 10px;
-    font-size: 5px;
-  }
-  h3{
-    position:absolute;
-    left: 10px;
-    top:40px;
-    font-size: 5px;
-  }
-  #brain,#job,#home{ /* 가장자리 */
-     left:300px;
-    }
-    #hobby,#email,#next{
-      left:400px;
-    }
-}
-@media(max-width:540px){
-
-  #job,#email{
-    top:120px;
-  }
-  #home,#next{
-    top:190px;
-}
-}
-}
-}
-}
+ #brain,#hobby,#job,#home,#next{
+   text-align: none;
+ }
