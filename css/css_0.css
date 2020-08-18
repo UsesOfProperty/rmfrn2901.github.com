@@ -19,18 +19,53 @@ body{
       border-bottom-width:  thin;
   		border-bottom: 1px solid black;
           }
-
-
+          #a_01{
+            margin: 218px;
+            padding-left: 0px;
+          }
+#hh{
+  text-align:  left;
+  margin: 100px;
+  padding-left: 0px;
+}
+#hb{
+  text-align:  center;
+  margin: 128px;
+  padding-left: 0px;
+}
+#hj{
+  text-align:  center;
+  margin: 155px;
+  padding-left: 0px;
+}
+#game{
+  position: relative;
+  left: 140px;
+  margin: 52px;
+  
+}
 #intro{
-  position: fixed;
+  float: left;
+  border-width:0; padding:0; margin:0;
+  position: static;
+  right: 400px;
+
+  top:400px;
+
 
 }
 
 #park{
+  float: left;
   border-right: 1px solid black ;
 
 }
+#bo{
 
+  position: static;
+  top:300px;
+  right: 0px;
+}
 
  #nextfont { position:fixed;
    height:200px;
@@ -42,10 +77,10 @@ body{
    overflow: auto;
    padding:15px;
  }
- #brain,#hobby,#job,#home,#next{
+ /* #brain,#hobby,#job,#home,#next{
    text-align: none;
- }
- @media(max-width:1130px){
+ } */
+ /* @media(max-width:1130px){
    #intro{
      height:  150px;
 
@@ -55,4 +90,4 @@ body{
      height:  100px;
    }
    }
- }
+ } */
