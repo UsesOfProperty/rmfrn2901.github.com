@@ -1,0 +1,32 @@
+#sty{
+        text-align: center;
+        
+}
+
+#btnc{
+        height:20px; 
+        width:100px; 
+        margin: -20px -50px; 
+        position:relative;
+        top:50%; 
+        left:55%;
+}
+
+#btnc2{
+        height:20px; 
+        width:100px; 
+        margin: -10px -40px; 
+        position:relative;
+        top:30%; 
+        left:43%;
+}
+
+
+li{
+        text-align: center;
+}
+
+#inlist{
+        padding:0;
+        text-align: center;
+}
